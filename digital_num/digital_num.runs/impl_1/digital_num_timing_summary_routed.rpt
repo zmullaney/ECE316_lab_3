@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-| Date         : Mon Feb 17 18:06:28 2025
+| Date         : Tue Feb 18 17:45:00 2025
 | Host         : DESKTOP-BGLR1M6 running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -max_paths 10 -report_unconstrained -file digital_num_timing_summary_routed.rpt -pb digital_num_timing_summary_routed.pb -rpx digital_num_timing_summary_routed.rpx -warn_on_violation
 | Design       : digital_num
@@ -272,9 +272,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    V16                                               0.000     0.000 f  y (IN)
+    V16                                               0.000     0.000 r  y (IN)
                          net (fo=0)                   0.000     0.000    y
-    V16                  IBUF (Prop_ibuf_I_O)         1.461     1.461 f  y_IBUF_inst/O
+    V16                  IBUF (Prop_ibuf_I_O)         1.461     1.461 r  y_IBUF_inst/O
                          net (fo=7, routed)           3.658     5.119    y_IBUF
     SLICE_X65Y16         LUT4 (Prop_lut4_I3_O)        0.154     5.273 r  f_OBUF_inst_i_1/O
                          net (fo=1, routed)           1.676     6.950    f_OBUF
@@ -318,9 +318,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    W16                                               0.000     0.000 f  x (IN)
+    W16                                               0.000     0.000 r  x (IN)
                          net (fo=0)                   0.000     0.000    x
-    W16                  IBUF (Prop_ibuf_I_O)         1.464     1.464 f  x_IBUF_inst/O
+    W16                  IBUF (Prop_ibuf_I_O)         1.464     1.464 r  x_IBUF_inst/O
                          net (fo=7, routed)           3.537     5.001    x_IBUF
     SLICE_X65Y16         LUT4 (Prop_lut4_I1_O)        0.124     5.125 r  b_OBUF_inst_i_1/O
                          net (fo=1, routed)           1.881     7.006    b_OBUF
@@ -393,9 +393,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    V17                                               0.000     0.000 f  z (IN)
+    V17                                               0.000     0.000 r  z (IN)
                          net (fo=0)                   0.000     0.000    z
-    V17                  IBUF (Prop_ibuf_I_O)         0.221     0.221 f  z_IBUF_inst/O
+    V17                  IBUF (Prop_ibuf_I_O)         0.221     0.221 r  z_IBUF_inst/O
                          net (fo=7, routed)           1.315     1.536    z_IBUF
     SLICE_X63Y12         LUT4 (Prop_lut4_I0_O)        0.045     1.581 r  g_OBUF_inst_i_1/O
                          net (fo=1, routed)           0.326     1.907    g_OBUF
@@ -416,9 +416,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    W17                                               0.000     0.000 f  w (IN)
+    W17                                               0.000     0.000 r  w (IN)
                          net (fo=0)                   0.000     0.000    w
-    W17                  IBUF (Prop_ibuf_I_O)         0.217     0.217 f  w_IBUF_inst/O
+    W17                  IBUF (Prop_ibuf_I_O)         0.217     0.217 r  w_IBUF_inst/O
                          net (fo=7, routed)           1.395     1.611    w_IBUF
     SLICE_X65Y16         LUT4 (Prop_lut4_I0_O)        0.045     1.656 r  b_OBUF_inst_i_1/O
                          net (fo=1, routed)           0.422     2.079    b_OBUF
@@ -462,9 +462,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    W17                                               0.000     0.000 f  w (IN)
+    W17                                               0.000     0.000 r  w (IN)
                          net (fo=0)                   0.000     0.000    w
-    W17                  IBUF (Prop_ibuf_I_O)         0.217     0.217 f  w_IBUF_inst/O
+    W17                  IBUF (Prop_ibuf_I_O)         0.217     0.217 r  w_IBUF_inst/O
                          net (fo=7, routed)           1.448     1.664    w_IBUF
     SLICE_X65Y16         LUT4 (Prop_lut4_I0_O)        0.045     1.709 r  e_OBUF_inst_i_1/O
                          net (fo=1, routed)           0.392     2.101    e_OBUF
@@ -485,9 +485,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    W17                                               0.000     0.000 f  w (IN)
+    W17                                               0.000     0.000 r  w (IN)
                          net (fo=0)                   0.000     0.000    w
-    W17                  IBUF (Prop_ibuf_I_O)         0.217     0.217 f  w_IBUF_inst/O
+    W17                  IBUF (Prop_ibuf_I_O)         0.217     0.217 r  w_IBUF_inst/O
                          net (fo=7, routed)           1.471     1.687    w_IBUF
     SLICE_X65Y16         LUT4 (Prop_lut4_I2_O)        0.045     1.732 r  c_OBUF_inst_i_1/O
                          net (fo=1, routed)           0.363     2.095    c_OBUF

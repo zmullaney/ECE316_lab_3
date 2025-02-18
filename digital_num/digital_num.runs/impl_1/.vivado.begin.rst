@@ -8,3 +8,33 @@
     <Process Command="vivado.bat" Owner="zach" Host="DESKTOP-BGLR1M6" Pid="22348" HostCore="16" HostMemory="016476659712">
     </Process>
 </ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="zach" Host="DESKTOP-BGLR1M6" Pid="20736" HostCore="16" HostMemory="016476659712">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="zach" Host="DESKTOP-BGLR1M6" Pid="3984" HostCore="16" HostMemory="016476659712">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="zach" Host="DESKTOP-BGLR1M6" Pid="15472" HostCore="16" HostMemory="016476659712">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="zach" Host="DESKTOP-BGLR1M6" Pid="27564" HostCore="16" HostMemory="016476659712">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="zach" Host="DESKTOP-BGLR1M6" Pid="9076" HostCore="16" HostMemory="016476659712">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="zach" Host="DESKTOP-BGLR1M6" Pid="22988" HostCore="16" HostMemory="016476659712">
+    </Process>
+</ProcessHandle>
